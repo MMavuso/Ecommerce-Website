@@ -1,0 +1,158 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+nav{
+	padding-right: 6px;
+	padding-left: 6px;
+	padding-top: 6PX;
+	padding-bottom: 6px;
+  
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid teal;
+	height: 120px;
+
+background:  rgb(255, 255, 255);}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  
+  color:black;
+  margin-left: 8px;
+  margin-right: 16px;
+  padding: 0px;
+  font-size: 20px;
+  border: none;
+  background: white;
+  font-weight: bold;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.logo{
+	font-size: xx-large;
+	font-weight: bold;
+  height: 150px;
+}
+
+.links{
+	font-size: larger;
+	font-weight: bold;
+	padding-right: 40px;
+	text-decoration: none;
+	color: black;
+
+}
+
+
+
+.banner-text{
+  font-weight: bolder;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.banner-text1{
+  font-weight: bolder;
+  font-size: 28px;
+  margin-top: 10px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.landingP{
+  position: relative;
+	width: 90%;
+	min-height: 600px;
+	margin: 80px auto;
+  padding: 0 auto;
+
+}
+
+.imagine{
+  width: 100%; 
+  height: 400px;
+  background-color:lightgrey;
+  position: relative;
+  margin: 0px auto;
+  padding: 20px auto;
+}
+
+.imagine-item{
+  width: 180px;
+  height: 300px;
+  
+  position: relative;
+  float: left;
+  margin: 40px 16px;
+  overflow: hidden;
+}
+.imagine-logo{
+  height: 200px;
+  margin-bottom: 40px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.imagine-name{
+  align-items: center;
+  text-align: center;
+}
+
+.new-item{
+  width: 500px;
+  height: 700px;
+  background-color: #ddd;
+  margin: auto 20px;
+  position: relative;
+  float: left;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.p2{
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.new-item-pic{
+  width: 100%;
+  height: 500px;
+
+}
+
+.conte{
+  
+  height: 1500px;
+  margin-top: 200px;
+  padding-top: 50px;
+  margin-bottom: 80px;
+}
